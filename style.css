@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 h4 h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+.top-nav {
+    background: tomato;
+    width: 100%;
+    height: 80px;
+}
+
+.top-nav img {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.main-display {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-nav {
+    width: 100%;
+    background: tomato;
+    margin-top: 0px;
+}
+
+.lower-nav p {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.lower-nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+.lower-nav p a:hover {
+    color: tomato;
+}
+
+.login-form {
+    width: 40%;
+    border: 1px solid white;
+    background: #051621;
+    color: white;
+    padding: 20px;
+}
+
+.login-form h2 {
+    text-align: center;
+    font-weight: 7oo;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.line {
+    height: 2px;
+    width: 98%;
+    background: tomato;
+    /* float: center; */
+}
+
+.line h4 span {
+    font-weight: 400;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.input {
+    width: 95%;
+    border-radius: 5px;
+    padding: 8px;
+    display: overflow hidden;
+    margin-bottom: 10px;
+}
+
+.rem-me {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.login {
+    background: tomato;
+    width: 95%;
+    border-radius: 5px;
+    padding: 8px;
+    display: overflow hidden;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.resister {
+    background: #5555ca;
+    width: 95%;
+    border-radius: 5px;
+    padding: 8px;
+    display: overflow hidden;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.need-foot a {
+    color: purple;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.need-foot a:hover {
+    color: tomato;
+}
+
+.iframe {
+    width: 40%;
+    height: 400px;
+}
+
+.iframe iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.linkmoni:hover {
+    color: black;
+    background-color: #5555ca;
+    font-size: 28px;
+}
+
+
+/* for responsive  */
+
+@media only screen and ( max-width: 600px) {
+    .main-display {
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .iframe {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .login-form {
+        width: 90%;
+    }
+}
